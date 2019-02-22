@@ -95,8 +95,8 @@ func getHandler(scheme string) handler {
 	switch scheme {
 	case "file", "":
 		return &fileHandler{}
-	case "s3":
-		return &s3Handler{}
+	case "minio", "s3":
+		return &minioHandler{}
 	}
 	return nil
 }
