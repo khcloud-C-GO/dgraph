@@ -24,7 +24,8 @@ func TestGetHandler(t *testing.T) {
 		out handler
 	}{
 		{in: "file", out: &fileHandler{}},
-		{in: "s3", out: &s3Handler{}},
+		{in: "minio", out: &minioHandler{}},
+		{in: "s3", out: &minioHandler{}},
 		{in: "", out: &fileHandler{}},
 		{in: "something", out: nil},
 	}
