@@ -1,6 +1,7 @@
 ![](/logo.png)
 
 **Fast, Transactional, Distributed Graph Database.**
+
 ** 分布式图数据库 **
 
 [![Wiki](https://img.shields.io/badge/res-wiki-blue.svg)](https://docs.dgraph.io)
